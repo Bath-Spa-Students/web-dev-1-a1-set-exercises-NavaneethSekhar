@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="Exercise6.css">
+    <script src="Exercise6.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Petrol Calculator</h1>
+        <div class="input-group">
+            <label for="cost">Cost per liter (in $):</label>
+            <input type="number" id="cost" step="0.01" value="1.50">
+        </div>
+        <div class="input-group">
+            <label for="liters">Liters purchased:</label>
+            <input type="number" id="liters" step="0.01" value="0">
+        </div>
+        <button id="calculateBtn">Calculate</button>
+        <p id="totalCost"></p>
+    </div>
+</body>
+</html>
